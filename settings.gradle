@@ -1,0 +1,4 @@
+include ':ljava'
+include ':demos'
+include ':app'
+rootProject.name = "DemoLearn"

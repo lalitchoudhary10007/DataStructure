@@ -5,9 +5,7 @@ public class JavaVariable_CVariable {
     //this_is_variable -- to Java -- thisIsVariable
     //pr thisIsVariable -- to C++ -- this_is_variable
 
-
     public static void main(String[] args) {
-
         System.out.println("Java Is:- " + changeVariable("this_is_variable"));
         System.out.println("C++ is:- "+ changeVariable("thisIsVariable"));
     }
@@ -21,7 +19,6 @@ public class JavaVariable_CVariable {
             for (int i = 0; i < variable.toCharArray().length; i++) {
                 if (i != 0 && variable.charAt(i - 1) == '_') {
                     result.append(Character.toUpperCase(variable.charAt(i)));
-                    continue;
                 } else if (variable.charAt(i) != '_') {
                     result.append(variable.charAt(i));
                 }

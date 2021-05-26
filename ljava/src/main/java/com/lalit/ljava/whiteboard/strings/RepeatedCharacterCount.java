@@ -18,15 +18,15 @@ public class RepeatedCharacterCount {
         char[] inputArray = input.toCharArray();
         Arrays.sort(inputArray);
         LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
-        for (int i = 0; i < inputArray.length; i++) {
-            if (map.containsKey(inputArray[i])) {
-                map.put(inputArray[i], map.get(inputArray[i]) + 1);
+        for (char c : inputArray) {
+            if (map.containsKey(c)) {
+                map.put(c, map.get(c) + 1);
             } else {
-                map.put(inputArray[i], 1);
+                map.put(c, 1);
             }
         }
         for (Character key : map.keySet()) {
-            result.append(key +""+map.get(key));
+            result.append(key).append(map.get(key));
         }
         return result.toString();
     }

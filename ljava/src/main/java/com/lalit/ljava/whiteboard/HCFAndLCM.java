@@ -13,7 +13,7 @@ public class HCFAndLCM {
             }
         }
 
-        System.out.println("HSCF is:- "+hcf);
+        System.out.println("HSF is:- "+hcf);
         System.out.println("LCM is:- "+(a*b)/hcf);
 
     }

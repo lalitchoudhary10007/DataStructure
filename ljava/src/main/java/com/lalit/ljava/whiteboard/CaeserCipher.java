@@ -7,7 +7,7 @@ public class CaeserCipher {
         String text = "AttackATOnce";
         int shift = 4;
 
-        StringBuffer result = new StringBuffer();
+        StringBuilder result = new StringBuilder();
         for (int i = 0 ; i < text.length(); i++){
             if (Character.isUpperCase(text.charAt(i))){
                 char ch = (char)(((int)text.charAt(i)+shift-65)%26+65);

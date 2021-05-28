@@ -5,3 +5,5 @@ Linked list is a sequential list of nodes that hold data which point to other no
 last node points to null --means there is no more data
 Singly linked list only hold a reference to the next node while in doubly linked list each node holds a reference to the next and previous node
 
+Stack - LIFO
+Queue - FIFO

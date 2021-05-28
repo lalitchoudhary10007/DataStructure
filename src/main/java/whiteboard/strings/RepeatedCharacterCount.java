@@ -8,9 +8,7 @@ public class RepeatedCharacterCount {
     //retrun string with count
 
     public static void main(String[] args) {
-
         System.out.print("Input with count:- "+countCharacter("lalit"));
-
     }
 
     public static String countCharacter(String input) {

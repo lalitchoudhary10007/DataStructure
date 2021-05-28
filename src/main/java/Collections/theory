@@ -1,2 +1,7 @@
 
 DS is a way of organizing data so that it can be used effectively
+
+Linked list is a sequential list of nodes that hold data which point to other nodes also containing data
+last node points to null --means there is no more data
+Singly linked list only hold a reference to the next node while in doubly linked list each node holds a reference to the next and previous node
+
